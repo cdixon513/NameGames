@@ -25,6 +25,7 @@ public class NameGames {
 		}
 
 		System.out.println("Hello " + fName + "!");
+		System.out.println("Hello " + lName.charAt(0) + fName.substring(1,fName.length()) + " " + fName.charAt(0) + lName.substring(1, lName.length()) + "!");
 		System.out.println("Your name is " + fName.length() + " letters long.");
 		System.out.println("Your name starts with a " + fName.charAt(0) + ".");
 		System.out.println("The letter " + fName.charAt(fName.length()/2) + " is at the center of your name.");
